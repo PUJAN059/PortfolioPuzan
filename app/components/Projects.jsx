@@ -14,8 +14,8 @@ const projects = [
     description:
       "A comprehensive web application for Pacific Barista, a barista training institute. Built with the MERN stack, it features course listings, enrollment management, training schedules, and student progress tracking.",
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
-    link: "#",
-    image: null,
+    link: "https://pacificbarista.com.np",
+    image: "/projects/pacificbarista.png",
   },
   {
     title: "Pocomat Web App",
@@ -26,12 +26,12 @@ const projects = [
     image: "/projects/pocomat.png",
   },
   {
-    title: "Weather Detector",
+    title: "Weather Detection",
     description:
       "A Python-based weather application that fetches real-time weather data for any city using a third-party weather API. Displays temperature, humidity, wind conditions, and forecasts with a clean interface.",
     tags: ["Python", "REST API", "Weather API", "JSON"],
-    link: "#",
-    image: null,
+    link: "https://weatherdetection.onrender.com/",
+    image: "/projects/weatherdetection.png",
   },
   {
     title: "Smart Bridge System",
@@ -39,15 +39,15 @@ const projects = [
       "An IoT-based smart bridge system built using Arduino, sound sensors, water level sensors, and cloud computing. When water levels rise or a boat approaches, the system automatically opens the bridge and triggers a buzzer alert for safety.",
     tags: ["Arduino", "IoT", "Cloud Computing", "Sensors", "C++"],
     link: "#",
-    image: null,
+    image: "/projects/smartbridge.webp",
   },
   {
     title: "Chatbot",
     description:
       "A conversational chatbot built in my free time that holds natural, human-like conversations. Uses natural language processing to understand context and generate meaningful responses.",
     tags: ["Python", "NLP", "AI", "Machine Learning"],
-    link: "#",
-    image: null,
+    link: "https://chatbotmalati.onrender.com",
+    image: "/projects/malatiAI.png",
   },
 ];
 
@@ -68,17 +68,20 @@ export default function Projects() {
               }`}
             >
               {/* Project Image */}
-              <div
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`${
                   index % 2 === 1 ? "md:order-2" : ""
-                } relative group`}
+                } relative group block`}
               >
                 <div className="rounded-3xl p-2 bg-gradient-to-br from-[#00ADB5]/20 to-transparent border border-[#00ADB5]/10 hover:border-[#00ADB5]/30 transition-all duration-500 hover:shadow-[0_0_30px_rgba(0,173,181,0.15)]">
                   <div className="rounded-2xl overflow-hidden">
                     <ProjectImage src={project.image} alt={project.title} />
                   </div>
                 </div>
-              </div>
+              </a>
 
               {/* Project Info */}
               <div

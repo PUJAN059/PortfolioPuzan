@@ -58,23 +58,23 @@ export default function Banner() {
             <p className="text-[#00ADB5] text-base sm:text-lg font-medium tracking-wide">A Developer who</p>
 
             <div className="flex items-baseline gap-2 sm:gap-3">
-              <span className="text-2xl sm:text-3xl md:text-4xl font-black text-[#EEEEEE] uppercase tracking-tight">Breaks</span>
-              <span className="text-sm sm:text-base text-[#EEEEEE]/40 font-light lowercase italic">bugs.</span>
+              <span className="text-xl sm:text-2xl md:text-3xl font-black text-[#EEEEEE] uppercase tracking-tight">Turns</span>
+              <span className="text-sm sm:text-base text-[#EEEEEE]/40 font-light lowercase italic">ideas</span>
             </div>
 
             <div className="flex items-baseline gap-2 sm:gap-3">
-              <span className="text-xs sm:text-sm text-[#EEEEEE]/30 font-light uppercase tracking-widest">Not</span>
-              <span className="text-2xl sm:text-3xl md:text-4xl font-black text-[#EEEEEE] uppercase tracking-tight">Production.</span>
+              <span className="text-xs sm:text-sm text-[#EEEEEE]/30 font-light uppercase tracking-widest">into</span>
+              <span className="text-xl sm:text-2xl md:text-3xl font-black text-[#EEEEEE] uppercase tracking-tight">Reality.</span>
             </div>
 
             <div className="flex items-baseline gap-2 sm:gap-3 pt-1">
-              <span className="text-3xl sm:text-4xl md:text-5xl font-black text-[#00ADB5] uppercase tracking-tight">Builds</span>
-              <span className="text-sm sm:text-base text-[#EEEEEE]/50 font-light lowercase italic">products</span>
+              <span className="text-2xl sm:text-3xl md:text-4xl font-black text-[#00ADB5] uppercase tracking-tight">Not</span>
+              <span className="text-sm sm:text-base text-[#EEEEEE]/50 font-light lowercase italic">just code.</span>
             </div>
 
             <div className="flex items-baseline gap-2 sm:gap-3">
-              <span className="text-xs sm:text-sm text-[#EEEEEE]/30 font-light uppercase tracking-widest">people can</span>
-              <span className="text-2xl sm:text-3xl md:text-4xl font-black text-[#EEEEEE] uppercase tracking-tight">Rely on.</span>
+              <span className="text-xs sm:text-sm text-[#EEEEEE]/30 font-light uppercase tracking-widest">Products that</span>
+              <span className="text-xl sm:text-2xl md:text-3xl font-black text-[#EEEEEE] uppercase tracking-tight">Make a difference.</span>
             </div>
 
             <div className="flex items-center gap-3 sm:gap-4 pt-2">
