@@ -75,7 +75,7 @@ export default function Connect() {
     <section id="connect" className="py-16 sm:py-20 px-4 sm:px-6" ref={sectionRef}>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-[#EEEEEE] animate-on-scroll">
-          Let&apos;s <span className="text-[#00ADB5]">Connect</span>
+          Find me <span className="text-[#00ADB5]">on</span>
         </h2>
         <p className="text-[#EEEEEE]/60 text-base sm:text-lg mb-8 sm:mb-12 animate-on-scroll delay-1">
           Find me on these platforms
